@@ -1,0 +1,39 @@
+{
+  "name": "webgl-unit-test-tutorial",
+  "version": "1.0.0",
+  "description": "The source code for a tutorial on unit testing WebGL components",
+  "main": "tutorial.js",
+  "dependencies": {
+    "get-pixels": "^3.3.0",
+    "gl": "^4.0.3",
+    "image-diff": "^1.6.3",
+    "ndarray": "^1.0.18",
+    "save-pixels": "^2.3.4",
+    "tape": "^4.6.3",
+    "webgl-to-img-stream": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "standard && node tutorial.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinedufn/webgl-unit-test-tutorial.git"
+  },
+  "keywords": [
+    "webgl",
+    "unit",
+    "test",
+    "tutorial",
+    "component",
+    "gl",
+    "canvas",
+    "3d"
+  ],
+  "author": "Chinedu Francis Nwafili <frankie.nwafili@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chinedufn/webgl-unit-test-tutorial/issues"
+  },
+  "homepage": "https://github.com/chinedufn/webgl-unit-test-tutorial#readme"
+}
