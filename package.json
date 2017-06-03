@@ -12,7 +12,9 @@
     "tape": "^4.6.3",
     "webgl-to-img-stream": "^1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
   "scripts": {
     "test": "standard && node tutorial.js"
   },
