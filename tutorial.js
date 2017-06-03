@@ -60,6 +60,11 @@ drawBackground(gl, [1, 0, 0])
 saveCanvasToImage(gl, canvasWidth, canvasHeight, './expected.png')
 
 /**
+ * NOTE!! Evertyhing below here would typically go into a separate test file.
+ * Keeping it all in here to (hopefully) keep this tutorial simple.
+ */
+
+/**
  * Test that our component works. See if you can change
  * `drawBackground(gl, [1, 0, 0])` down below, or you
  * change the implementation function drawBackground
